@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+}
+body,html{
+    height: 100%;
+    font-family:Arial, sans-serif;
+}
+/*
+Links conteudo
+*/
+
+table{
+    border-collapse: collapse;
+}
+th{
+    color:#666666;
+    font-weight: 900;
+}
+table, th, td {
+    color:#666666;
+    font-family: 'Open Sans', Helvetica Neue, Sans-serif;
+    border:1px solid #eaeaea;
+    padding: 15px;
+    font-size:16px;
+    text-align: left;
+}
+#conteudo a{
+    text-transform: uppercase;
+	text-decoration: none;
+	font-size:18px;
+}
+#conteudo a:hover{
+	color:#E94F2C;
+}
+#conteudo a{
+	display: inline-block;
+	padding:15px 0;
+	text-decoration: none;
+	color: black;
+}
+/*  Fim        */
+
+#cabecario{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#cabecario img{
+    padding: 30px;
+    width: 20%;    
+}
+#conteudo{
+    margin: 10px;
+    text-align: center;
+}
+#erro{
+    color:red;
+}
+form{
+    padding: 20px;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    height: 8%;
+    bottom: 0;
+    padding: 20px;
+    color:white;    
+    text-align: center;
+    font-size: 11pt;
+    background-color:#E94F2C;
+}
+footer img {
+    position: static;
+    padding: 2px;
+    width: 3%;
+}
